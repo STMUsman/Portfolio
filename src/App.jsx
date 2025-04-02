@@ -5,15 +5,17 @@ import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
 import Workex from './Components/Workex/Workex'
 
+
+
 function App() {
 
   return (
     <>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Workex/>
-        <Footer/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Workex />
+      <Footer />
     </>
   )
 }

@@ -8,7 +8,7 @@ const About = () => {
                 <p className='text-[#F5F5F5] mt-10 font-normal'>
                     Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.
                 </p>
-                <h2 className='text-white text-3xl mt-6 font-medium'>My Skills</h2>
+                <h2 className='text-[#CCCCCC] text-3xl mt-6 font-medium'>My Skills</h2>
                 <div className='mt-4'>
                     <div className='flex gap-4'>
                         <div className='w-20 h-20 bg-gray-700'></div>
