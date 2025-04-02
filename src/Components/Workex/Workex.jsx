@@ -1,15 +1,17 @@
 import React from "react";
+import about1 from '../Assets/about-1.jpg'
+import about2 from '../Assets/about-2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 
 const Workex = () => {
     return (
-        <div className="w-full text-[#FFFFFF] h-screen bg-transparent flex items-center justify-center px-24">
+        <div className="w-full text-[#FFFFFF] h-screen bg-transparent flex items-center gap-14 justify-center px-24">
             <div className="bg-transparent w-1/2 h-full">
-                <div className="flex items-center gap-8">
-                    <div className="text-[160px] text-[#FFFFFF] font-semibold flex justify-center items-center">15</div>
-                    <div className="text-2xl text-[#FFFFFF]">Years of working experience as a web designer & developer</div>
+                <div className="w-full  flex gap-8">
+                    <div className="text-[160px] text-[#FFFFFF] font-semibold">15</div>
+                    <div className="text-2xl text-[#FFFFFF] font-medium flex items-center">Years of working experience as a web designer & developer</div>
                 </div>
 
                 <div className="font-normal text-[#B0B0B0] text-base mt-4">
@@ -31,17 +33,17 @@ const Workex = () => {
             </div>
 
             <div className="bg-transparent w-1/2 h-full">
-                <div>
-                    <div></div>
-                    <div></div>
+                <div className="flex gap-4.5">
+                    <div className="rounded-2xl overflow-hidden"><img src={about1} alt="" /></div>
+                    <div className="rounded-2xl overflow-hidden"><img src={about2} alt="" /></div>
                 </div>
-                <div>
-                    <div>Happy Clients | 1234</div>
-                    <div>Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</div>
+                <div className="mt-10">
+                    <div className="text-[#CCCCCC] text-xl font-medium flex items-center">Happy Clients <span className="mx-3.5 font-thin">|</span> <strong className="text-3xl text-[#7FFF00] font-medium">1234</strong></div>
+                    <div className="text-[#B0B0B0] font-normal text-sm mt-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</div>
                 </div>
-                <div>
-                    <div>Projects Completed | 1234</div>
-                    <div>Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</div>
+                <div className="mt-6">
+                    <div className="text-[#CCCCCC] text-xl font-medium flex items-center">Projects Completed <span className="mx-3.5 font-thin">|</span> <strong className="text-3xl text-[#7FFF00] font-medium">1234</strong></div>
+                    <div className="text-[#B0B0B0] font-normal text-sm mt-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</div>
                 </div>
             </div>
 
